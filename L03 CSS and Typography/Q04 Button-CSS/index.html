@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <title>Buttons CSS</title>
 </head>
 <body>
-    <h2></h2>
-
+    <h2>Normal Buttons</h2>
     <p>
-        <a href=""></a>
-        <button></button>
-        <button class="hover" ></button>
+        <a><button class="button">Learn More</button></a>
+        <button class="button">Learn More</button>
+        <button class="hover" class="button">Learn More</button>
     </p>
 
-    <h2></h2>
+    <h2>Filled Buttons</h2>
+    <a><button class="button fill">Learn More</button></a>
+    <button class="button" class="fill">Learn More</button>
+    <button class="button" class="fill" class="hover">Learn More</button>
 
-    <p>
-        <a href=""></a>
-        <button></button>
-        <button class="hover" ></button>
-    </p>
-
-    <h2></h2>
-
-    <p>
-        <a href=""></a>
-        <button></button>
-        <button class="hover" ></button>
-    </p>
+    <h2>Icon Buttons</h2>
+    <a>
+        <button class="button" class="fill">
+            <i class="fas fa-arrow-down"></i> Download
+        </button>
+    </a>
+    <button class="button class="fill">
+        <i class="fas fa-arrow-down"></i> Download
+    </button>
+    <button class="button" class="fill" class="hover">
+        <i class="fas fa-arrow-down"></i> Download
+    </button>
 </body>
 </html>
