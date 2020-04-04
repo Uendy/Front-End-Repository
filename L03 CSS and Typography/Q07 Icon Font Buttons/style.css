@@ -2,3 +2,20 @@
     padding-top: 1em;
     padding-left: 2.5em;
 }
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.click{
+    background-color: green;
+}
+
+.email{
+    background-color: orange;
+}
