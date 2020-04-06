@@ -9,3 +9,9 @@ body, form, table, input, textare, option, select{
 h1, h2, h3, h4, h5, h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+blockquote{
+    border-left: 2px solid rgb(221, 221, 221);
+    padding-left: 2em;
+    font-style: italic;
+}
