@@ -1,5 +1,6 @@
 html{
     font: 16px/1.5 Arial, Helvetica, sans-serif;
+    padding-left: 2em;
 }
 
 body, form, table, input, textare, option, select{
@@ -15,3 +16,39 @@ blockquote{
     padding-left: 2em;
     font-style: italic;
 }
+
+cite{
+    padding-right: 3em;
+}
+
+.author{
+    text-align: right;
+}
+
+table{
+    border-collapse: collapse;
+    width: 60em;
+}
+
+thead{
+    background-color: rgb(210, 210, 210);
+}
+
+th, td{
+    width: 33%;
+    text-align: left;
+    padding-left: 0.5em;
+}
+
+td, thead {
+    border: 1px solid gray;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(230, 230, 230);
+}
+
+tbody tr:nth-child(2n + 1) {
+    background-color: rgb(255, 255, 255)
+}
+
