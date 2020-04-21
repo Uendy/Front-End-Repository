@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6{
 
 nav li{
     display: inline-block;
+    margin: 0.5em 1em;
 }
 
 a{
@@ -16,6 +17,8 @@ a{
     text-decoration: none;
 }
 
-hr{
-    height: 0.01em;
+nav{
+    border-color: black;
+    border-style: solid;
+    border-width: 0 0 0.1em 0;
 }
