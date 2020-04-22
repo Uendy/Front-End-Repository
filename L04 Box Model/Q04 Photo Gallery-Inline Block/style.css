@@ -1,0 +1,24 @@
+.site{
+    background: rgb(230, 230, 230);
+}
+
+ul{
+    margin: 0, auto;
+    width: 70%;
+}
+
+img{
+    display: inline-block;
+    max-width: 16em;
+}
+li{
+    display: inline-block;
+    border: 0.4rem solid black;
+    padding: 0.6em;
+    margin: 0.3em;
+}
+
+.align{
+    position: relative;
+    top: -6.5em;
+}
