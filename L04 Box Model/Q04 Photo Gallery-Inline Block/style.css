@@ -1,24 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 .site{
-    background: rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    max-width: 60em;
+    margin: 0 auto;
 }
 
-ul{
-    margin: 0, auto;
-    width: 70%;
+.gallery li {
+	display: inline-block;
+	width: 29%;
+	vertical-align: middle;
+	border: 0.4rem solid black;
+	padding: 0.5em;
 }
 
-img{
-    display: inline-block;
-    max-width: 16em;
-}
-li{
-    display: inline-block;
-    border: 0.4rem solid black;
-    padding: 0.6em;
-    margin: 0.3em;
-}
-
-.align{
-    position: relative;
-    top: -6.5em;
+.gallery img {
+	width: 100%;
 }
