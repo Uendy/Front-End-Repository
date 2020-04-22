@@ -5,18 +5,19 @@
 
 .site{
     background-color: rgb(230, 230, 230);
-    max-width: 60em;
+    max-width: 80em;
     margin: 0 auto;
 }
 
 .gallery li {
 	display: inline-block;
-	width: 29%;
+	width: 31.7%;
 	vertical-align: middle;
-	border: 0.4rem solid black;
-	padding: 0.5em;
+    border: 0.4rem solid black;
+    margin: 0.05em 0;
+    padding: 2px 2px;
 }
 
 .gallery img {
-	width: 100%;
+    width: 100%;
 }
