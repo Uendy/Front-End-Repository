@@ -1,3 +1,30 @@
+html{
+    background-color: honeydew;
+}
+
 .site{
-    font: 16px/1.5 Helvetica 'sans-serif';
+    font: 16px/1.5 Helvetica, 'sans-serif';
+    background: rgb(231, 231, 231);
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+.site-title{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+blockquote{
+    color: grey;
+    margin: 0;
+    max-width: 40%;
+    float: right;
+    border-left: 2px solid lightgrey;
+    font-style: italic;
+    padding: 0px 20px 40px 20px;
+}
+
+blockquote footer{
+    text-align: right;
 }
