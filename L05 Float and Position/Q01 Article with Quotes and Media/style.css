@@ -1,10 +1,9 @@
 html{
-    background-color: honeydew;
+    background-color: rgb(231, 231, 231);
 }
 
 .site{
     font: 16px/1.5 Helvetica, 'sans-serif';
-    background: rgb(231, 231, 231);
     margin: 0 auto;
     max-width: 60em;
 }
@@ -27,4 +26,19 @@ blockquote{
 
 blockquote footer{
     text-align: right;
+}
+
+img{
+    border: 3px solid black;
+    padding: 7px;
+}
+
+.firstpic{
+    float: right;
+    margin-left: 2.5%;
+}
+
+.secondpic{
+    float: left;
+    margin-right: 2.5%;
 }
