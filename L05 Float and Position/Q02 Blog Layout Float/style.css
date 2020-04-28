@@ -4,13 +4,28 @@ html {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    font: 16px/1.5 Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
 }
 
 .site{
     margin: 0 auto;
     max-width: 60em;
-    background-color: rgb(238, 238, 238);
+    
+}
+
+.title{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1;
+    margin: 0.5em 0 0 0;
+    text-transform: uppercase;
+}
+
+hr{
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 h1, h2, h3, h4, h5, h6{
