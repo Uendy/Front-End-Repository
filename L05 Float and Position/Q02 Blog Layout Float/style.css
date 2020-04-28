@@ -12,7 +12,6 @@ html {
 .site{
     margin: 0 auto;
     max-width: 60em;
-    
 }
 
 .title{
@@ -39,10 +38,26 @@ img{
 
 blockquote{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1px solid black;
 }
 
 li a{
     text-decoration: none;
 }
+
+.first-image{
+    float: right;
+    margin-left: 2.5%;
+    outline: 3px solid black;
+    padding: 7px;
+}
+
+.second-image{
+    float: left;
+    margin-right: 2.5%;
+    outline: 3px solid black;
+    padding: 7px;
+}
+
 
 /* float the images in the proper directions */
