@@ -25,3 +25,9 @@ img{
 blockquote{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+li a{
+    text-decoration: none;
+}
+
+/* float the images in the proper directions */
