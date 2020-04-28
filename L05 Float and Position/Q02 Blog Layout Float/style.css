@@ -22,6 +22,16 @@ html {
     text-transform: uppercase;
 }
 
+main{
+    width: 65%;
+    float: left;
+}
+
+aside{
+    width: 24%;
+    margin-left: 10%;
+}
+
 hr{
     border: 1px solid black;
     border-radius: 5px;
@@ -29,6 +39,10 @@ hr{
 
 h1, h2, h3, h4, h5, h6{
     font: 2em/1.2 Georgia, 'serif';
+}
+
+aside{
+    float: right;
 }
 
 img{
@@ -41,8 +55,13 @@ blockquote{
     padding-left: 1px solid black;
 }
 
+li{
+    list-style-type: square;
+}
+
 li a{
     text-decoration: none;
+    color: green;
 }
 
 .first-image{
@@ -58,6 +77,3 @@ li a{
     outline: 3px solid black;
     padding: 7px;
 }
-
-
-/* float the images in the proper directions */
