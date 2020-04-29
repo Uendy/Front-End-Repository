@@ -52,7 +52,21 @@ img{
 
 blockquote{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 1px solid black;
+    color: gray;
+    border-left: 2px solid lightgray;
+    max-width: 40%;
+    float: right;
+    font-style: italic;
+    padding: 0px 20px 40px 20px;
+}
+
+blockquote footer{
+    text-align: right;
+}
+.before-quote{
+    margin: 0;
+    max-width: 50%;
+    display: inline-block;
 }
 
 li{
