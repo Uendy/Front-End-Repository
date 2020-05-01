@@ -1,0 +1,29 @@
+body{
+    margin: 0 auto;
+    height: 100vh;
+    width: auto;
+}
+
+.top, .bottom{
+    height: 50vh;
+    width: auto;
+}
+
+img{
+    width: 15em;
+    height: auto;
+    max-height: 45vh;
+    margin: 2.5vh 42vw;
+}
+
+.top img{
+    margin: 15vh 42vw;
+}
+
+.top{
+background: linear-gradient(to right, #0F52BA, #3fE0D0);
+}
+
+.bottom{
+background: linear-gradient(to right, #BA55D3, #FFA500);
+}
