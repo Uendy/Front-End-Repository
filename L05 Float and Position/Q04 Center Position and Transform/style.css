@@ -1,0 +1,10 @@
+body{
+    margin: 0 auto;
+    width: 50em;
+    background-color: rgb(238, 238, 238);
+}
+
+.site{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
