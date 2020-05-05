@@ -30,18 +30,22 @@ hr{
 blockquote{
     box-sizing: border-box;
     font-style: italic;
-    font-size: 12px;
+    font-size: 13px;
     width: 40%;
     float: right;
+    vertical-align: inherit;
     margin: 0 0 0 5%;
     padding: 0 0 3% 5%;
     border-left: 2px solid rgba(246, 246, 246, 1);
-    /* vertical-align: text-top; */
+}
+
+blockquote > p{
+    margin-top: 0;
 }
 
 blockquote > footer{
     float: right;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .first-image{
