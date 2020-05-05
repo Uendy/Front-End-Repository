@@ -26,7 +26,20 @@ hr{
 }
 
 blockquote{
-    /* float: right; */
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: 12px;
+    width: 40%;
+    float: right;
+    margin: 0 0 0 5%;
+    padding: 0 0 3% 5%;
+    border-left: 2px solid rgba(246, 246, 246, 1);
+    /* vertical-align: text-top; */
+}
+
+blockquote > footer{
+    float: right;
+    font-size: 15px;
 }
 
 .first-image{
