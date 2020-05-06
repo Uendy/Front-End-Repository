@@ -35,7 +35,7 @@ blockquote{
     float: right;
     vertical-align: inherit;
     margin: 0 0 0 5%;
-    padding: 0 0 3% 5%;
+    padding: 0 5% 3% 5%;
     border-left: 2px solid rgba(246, 246, 246, 1);
 }
 
@@ -57,5 +57,5 @@ blockquote > footer{
 
 .second-image{
     float: left;
-    margin: 0.7% 2% 0 0;
+    margin: 0.4% 2% 0.3% 0;
 }
