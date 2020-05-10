@@ -9,11 +9,11 @@ body{
 .viewport{
     height: 100vh;
     position: relative;
-    background-color: lightblue;
+    background: linear-gradient(to right, rgb(24, 90, 157), rgb(66, 205, 161));
 }
 
 .viewport:nth-child(even){
-    background-color: lightsalmon;
+    background: linear-gradient(to right, rgb(168, 50, 121), rgb(211, 131, 18));
 }
 
 .card{
