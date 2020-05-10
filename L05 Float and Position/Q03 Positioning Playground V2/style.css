@@ -23,18 +23,47 @@ body{
     transform:translate(-50%, -50%);
     overflow: hidden;
     background-color: lightslategrey;
-    height: 80%;
-    width: 10em;
+    border-radius: 0.2em;
+    /* width: 10em; */
 }
 
 .card:before{
     display: block;
     content: '';
-    padding-top: 100%;
+    background-color: red;
 }
 
 .card .media{
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
+    background-color: blue;
+}
+
+.card.ar-16x9{
+    width: 10em /* looks too thin to be the same width as the portrait picture  */
+}
+
+.card.ar-16x9:before{
+    padding-top: calc( (9 / 16) * 100% );
+}
+
+.card.lands{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card.ar-9x16{
+    width: 8 em;
+}
+
+.card.ar-9x16:before{
+    padding-top: calc( (16 / 9) * 100%);
+}
+
+.card.portrait img{
+    display: block;
+    height: 100%;
+    width: auto;
 }
 
