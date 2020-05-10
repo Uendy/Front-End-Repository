@@ -24,7 +24,7 @@ body{
     overflow: hidden;
     background-color: lightslategrey;
     border-radius: 0.2em;
-    /* width: 10em; */
+    width: 10em;
 }
 
 .card:before{
@@ -40,14 +40,14 @@ body{
 }
 
 .card.ar-16x9{
-    width: 10em /* looks too thin to be the same width as the portrait picture  */
+    width: 14em;  /* looks too thin to be the same width as the portrait picture  */
 }
 
 .card.ar-16x9:before{
     padding-top: calc( (9 / 16) * 100% );
 }
 
-.card.lands{
+.card.landscape img{
     display: block;
     width: 100%;
     height: auto;
