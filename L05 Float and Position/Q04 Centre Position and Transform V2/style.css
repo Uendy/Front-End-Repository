@@ -11,11 +11,17 @@ body{
     margin: 0 auto;
     width: 35vw;
     height: 70wh;
+    border-radius: 0.4em;
     background-color: burlywood;
 }
 
 .picture{
+    overflow: hidden;
+}
 
+.picture img{
+    width: 35vw;
+    height: auto;
 }
 
 .text{
