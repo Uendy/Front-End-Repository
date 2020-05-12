@@ -22,8 +22,27 @@ body{
 .picture img{
     width: 35vw;
     height: auto;
+    border-top-right-radius: 0.4em;
+    border-top-left-radius: 0.4em;
 }
 
 .text{
+    padding: 2em 2.5em;
+}
 
+.text h1{
+    font: 1.6em/1.2 Georgia, 'serif';
+    font-weight: bold;
+}
+
+.text p{
+    font-size: 1.2em;
+}
+
+.text button{
+    background-color: limegreen;
+    border-radius: 0.3em;
+    color: white;
+    font-size: 0.75em;
+    float: right;
 }
