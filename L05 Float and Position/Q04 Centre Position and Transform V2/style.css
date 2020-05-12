@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.site{
+    background-color: #EEE;
+}
+
+.card{
+    margin: 0 auto;
+    width: 35vw;
+    height: 70wh;
+    background-color: burlywood;
+}
+
+.picture{
+
+}
+
+.text{
+
+}
