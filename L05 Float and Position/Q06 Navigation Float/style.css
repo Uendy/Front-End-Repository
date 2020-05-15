@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.site{
+    background-color: #EEE;
+}
+
+.title{
+    font: 2em/0.2 Helvetica, Ariel, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+aside a{
+    color: darkgreen;
+    text-decoration: none;
+}
