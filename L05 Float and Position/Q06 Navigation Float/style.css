@@ -1,10 +1,13 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #EEE;
+    
 }
 
 .site{
-    background-color: #EEE;
+    width: 60em;
+    margin: 0 auto;
 }
 
 .title{
