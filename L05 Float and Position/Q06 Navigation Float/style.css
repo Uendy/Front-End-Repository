@@ -12,17 +12,22 @@ body{
 
 .title{
     display: inline-block;
-    width: 70%;
+    width: 60%;
     font-size: 2em;
     font-style: Helvetica, Ariel, sans-serif;
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
+    padding: 0.1em 0.3em;
 }
 
 nav{
     display: inline-block;
-    width: 29%;
+    width: 37%;
+}
+
+nav ul{
+    margin: 4px;
 }
 
 nav li{
@@ -39,4 +44,9 @@ nav a{
 aside a{
     color: darkgreen;
     text-decoration: none;
+}
+
+hr{
+    border: 1px solid black;    
+    margin: 0;
 }
