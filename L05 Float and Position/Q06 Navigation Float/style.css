@@ -10,6 +10,10 @@ body{
     margin: 0 auto;
 }
 
+.site-header{
+    padding-top: 2em;
+}
+
 .title{
     display: inline-block;
     width: 60%;
@@ -24,6 +28,7 @@ body{
 nav{
     display: inline-block;
     width: 37%;
+    vertical-align: top;
 }
 
 nav ul{
