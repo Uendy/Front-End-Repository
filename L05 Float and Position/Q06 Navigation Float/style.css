@@ -70,3 +70,12 @@ aside{
 h1, h2, h3, h4, h5, h6{
     font-weight: normal;
 }
+
+.first-pic{
+    float: right;
+    width: 18%;
+    height: auto;
+    padding: 1%;
+    margin: 0 0 0.5% 1%;
+    border: 2px solid black;
+}
