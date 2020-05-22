@@ -17,7 +17,7 @@ body{
     display: inline-block;
     width: 60%;
     font-size: 2em;
-    font-style: Helvetica, Ariel, sans-serif;
+    font-family: Arial, Helvetica, 'sans-serif';
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
@@ -34,7 +34,7 @@ nav ul{
     margin: 4px;
 }
 
-nav li{
+header nav li{
     list-style: none;    
     display: inline-block;
     padding: 0 1em;
@@ -78,4 +78,8 @@ h1, h2, h3, h4, h5, h6{
     padding: 1%;
     margin: 0 0 0.5% 1%;
     border: 2px solid black;
+}
+
+aside ul {
+    
 }
