@@ -91,3 +91,23 @@ aside nav ul{
 aside li{
     font-size: 14px;
 }
+
+blockquote{
+    display: inline-block;
+    margin: 0 0 0 1em;
+    width: 40%;
+    float: right;
+    color: gray;
+    vertical-align: text-top;
+    border-left: 3px solid lightgray;
+}
+
+blockquote p{
+    margin: 0;
+    font-style: italic;
+    padding-left: 1em;
+}
+
+blockquote footer{
+    float: right;
+}
