@@ -52,7 +52,7 @@ aside a{
 
 hr{
     border: 1px solid black;    
-    margin: 0;
+    margin: 0 0 1em 0;
 }
 
 main{
@@ -69,6 +69,7 @@ aside{
 
 h1, h2, h3, h4, h5, h6{
     font-weight: normal;
+    margin: 0;
 }
 
 .first-pic{
