@@ -1,0 +1,25 @@
+.site{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-header,
+.site-main,
+.site-aside,
+.site-footer{
+    flex: 1 0 5em;
+    margin: 1em;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    /* box-shadow: 0.1; */
+}
+
+.site-header,
+.site-footer{
+    padding: 4vw 90vh;
+}
+
+.site-main,
+.site-aside{
+    padding: 8vw;
+}
