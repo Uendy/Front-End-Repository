@@ -1,6 +1,7 @@
 .site{
     display: flex;
     flex-wrap: wrap;
+    background-color: #999999;
 }
 
 .site-header,
@@ -10,16 +11,25 @@
     flex: 1 0 5em;
     margin: 1em;
     border: 1px solid black;
-    border-radius: 0.3em;
-    /* box-shadow: 0.1; */
+    border-radius: 0.2em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    background-color: white;
 }
 
 .site-header,
 .site-footer{
-    padding: 4vw 90vh;
+    padding: 2em 60em 6em 2em;
+}
+
+.site-footer{
+    padding: 2em 60em 3em 2em;
 }
 
 .site-main,
 .site-aside{
-    padding: 8vw;
+    padding: 2em 40em 10em 2em;
+}
+
+.site-aside{
+    padding: 2em 15em 4em 2em;
 }
