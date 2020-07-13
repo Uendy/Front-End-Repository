@@ -12,9 +12,8 @@ html {
 }
 
 .site{
-    background-color: rgb(231, 231, 231);
     margin: 0 auto;
-    padding: 5em;
+    padding: 6em;
     max-width: 60em;
 }
 
@@ -24,7 +23,7 @@ section{
 
 article{
     min-width: 20%;
-    max-width: 25%;
+    max-width: 30%;
     padding-left: 3.5em;
 }
 
