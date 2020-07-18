@@ -14,18 +14,37 @@ html {
 .container{
     display: flex;
     width: 60em;
+    height: 30em;
     margin: 4em auto;
+    font: 14px/1.5 Helvetics, sans-serif;
 }
 
 .week{
-
+    width: 45em;
+    background-color: brown;
 }
 
 .notes{
-
+    width: 15em;
+    flex-wrap: wrap;
+    background-color: chartreuse;
 }
 
-.workweek{
+.notes p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 15em;
+    height: 15em;
+    padding: 0.5em 0 0 0;
+    border: solid black 1px;
+}
+
+.notes p:first-of-type{
+    border-bottom: 0px;
+}
+
+/* .workweek{
     display: flex;
     flex-wrap: wrap;
     width: 45em;
@@ -36,7 +55,7 @@ html {
     width: 45em;
     display: flex;
     justify-content: center;
-}
+} */
 
 /* .workweek p{
     border: 1px solid black;
