@@ -21,7 +21,23 @@ html {
 
 .week{
     width: 45em;
-    background-color: brown;
+    height: 15em;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.week .title{
+    width: 45em;
+    padding:  1.5em 22.5em 5.5em 22.5em;
+}
+
+.week p{
+    width: 9em;
+    height: 7.5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: solid black 1px;
 }
 
 .notes{
