@@ -27,7 +27,6 @@ html {
 .notes{
     width: 15em;
     flex-wrap: wrap;
-    background-color: chartreuse;
 }
 
 .notes p{
