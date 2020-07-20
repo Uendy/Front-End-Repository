@@ -40,14 +40,23 @@ html {
     border: solid black 1px;
 }
 
+.weekend{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45em;
+    height: 15em;
+}
+
 .weekend .title{
     width: 45em;
     padding:  1.5em 22.5em 5.5em 22.5em;
 }
 
 .weekend p{
-    width: 22em;
+    width: 22.5em;
     height: 7.5em;
+    justify-content: center;
+    align-items: flex-start;
     border: solid black 1px;
     display: flex;
 }
