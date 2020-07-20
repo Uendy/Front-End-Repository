@@ -19,25 +19,37 @@ html {
     font: 14px/1.5 Helvetics, sans-serif;
 }
 
-.week{
+.workweek{
     width: 45em;
     height: 15em;
     display: flex;
     flex-flow: row wrap;
 }
 
-.week .title{
+.workweek .title{
     width: 45em;
     padding:  1.5em 22.5em 5.5em 22.5em;
 }
 
-.week p{
+.workweek p{
     width: 9em;
     height: 7.5em;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     border: solid black 1px;
+}
+
+.weekend .title{
+    width: 45em;
+    padding:  1.5em 22.5em 5.5em 22.5em;
+}
+
+.weekend p{
+    width: 22em;
+    height: 7.5em;
+    border: solid black 1px;
+    display: flex;
 }
 
 .notes{
@@ -58,21 +70,3 @@ html {
 .notes p:first-of-type{
     border-bottom: 0px;
 }
-
-/* .workweek{
-    display: flex;
-    flex-wrap: wrap;
-    width: 45em;
-    justify-content: space-evenly;
-}
-
-.workweek .title{
-    width: 45em;
-    display: flex;
-    justify-content: center;
-} */
-
-/* .workweek p{
-    border: 1px solid black;
-    flex-grow: 1;
-} */
