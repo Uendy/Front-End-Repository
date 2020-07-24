@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.site{
+    padding: 2em;
+}
+
+.site-header{
+    display: flex;
+}
+
+.site-title{
+    width: 60vw;
+}
+
+.site-nav{
+    display: flex;
+    color: rgb(70, 222, 10);
+}
+
+li{
+    margin: 0.75em;
+    list-style: none;
+}
