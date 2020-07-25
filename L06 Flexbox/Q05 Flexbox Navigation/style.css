@@ -21,7 +21,7 @@ html {
 }
 
 .site-title{
-    width: 70vw;
+    width: 75vw;
     text-transform: uppercase;
 }
 
@@ -37,9 +37,19 @@ li{
 li a{
     text-decoration: none;
     color: rgb(0, 128, 10);
+    font-size: 14px;
 }
 
 hr{
     border: 1px solid black;
-    margin-top: 1em;
+    margin: 1em 0;
+}
+
+.site-main h1{
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.site-main p{
+    padding: 0.5em 0;
 }
