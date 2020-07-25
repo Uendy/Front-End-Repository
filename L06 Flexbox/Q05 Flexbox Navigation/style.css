@@ -13,6 +13,7 @@ html {
 
 .site{
     padding: 2em;
+    font: 14px/1.5 Helvetica, 'sans-serif';
 }
 
 .site-header{
@@ -20,15 +21,25 @@ html {
 }
 
 .site-title{
-    width: 60vw;
+    width: 70vw;
+    text-transform: uppercase;
 }
 
 .site-nav{
     display: flex;
-    color: rgb(70, 222, 10);
 }
 
 li{
-    margin: 0.75em;
+    margin-left: 2em;
     list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(0, 128, 10);
+}
+
+hr{
+    border: 1px solid black;
+    margin-top: 1em;
 }
