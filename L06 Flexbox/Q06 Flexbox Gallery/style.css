@@ -19,3 +19,9 @@ body, ul, li{
 ul{
     list-style: none;
 }
+
+li{
+    width: 32%;
+    height: 32%;
+    margin: 0.1em;
+}
