@@ -14,6 +14,7 @@ html {
 .gallery{
     padding: 4em;
     margin: 0 auto;
+    background-color: rgb(233,233,233);
 }
 
 body, ul, li{
@@ -27,6 +28,7 @@ ul{
 }
 
 li{
+    display: flex;
     box-sizing: border-box;
     width: 31%;
     height: 31%;
@@ -36,16 +38,14 @@ li{
     box-shadow: 10px 10px (0, 0, 0, 0.2);
 }
 
-img .landscape{
+.landscape{
     height: 30%;
     width: auto;
-    padding: 2em;
 }
 
 .portrait{
     width: 90%;
     height: auto;
-    padding: 2em;
 }
 
 .square{
