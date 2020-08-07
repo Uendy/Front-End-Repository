@@ -1,54 +1,49 @@
-* {
-    padding: 0;
+*{
     margin: 0;
-}
-
-html {
+    padding: 0;
     box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-.gallery{
-    padding: 4em;
-    margin: 0 auto;
-    background-color: rgb(233,233,233);
 }
 
 body, ul, li{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+    justify-content: center;
+    margin: 4rem;
+}
+
+section{
+    max-width: 70vw;
 }
 
 ul{
-    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
 }
 
 li{
-    display: flex;
-    box-sizing: border-box;
-    width: 31%;
-    height: 31%;
-    margin: 0.5em;
-    border: 3px solid black;
-    padding: 0.1em;
-    box-shadow: 10px 10px (0, 0, 0, 0.2);
-}
-
-.landscape{
-    height: 30%;
-    width: auto;
+    max-width: 25%;
+    border: 6px solid black;
+    box-shadow: inset 0px 0px 50px -6px rgba(0,0,0,0.25);
+    background: white;
+    margin: 1em;
 }
 
 .portrait{
-    width: 90%;
-    height: auto;
+    padding: 2rem 10px;
+}
+
+.landscape{
+    padding: 6rem 10px;
 }
 
 .square{
-    width: 90%;
-    height: 90%;
+    padding: 4rem 10px;
+}
+
+img{
+    max-width: 100%;
 }
