@@ -10,3 +10,8 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.page{
+    padding: 4em;
+    background-color: rgb(238, 238, 238);
+}
