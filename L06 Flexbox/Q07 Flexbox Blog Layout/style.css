@@ -18,18 +18,24 @@ html {
 
 hr{
     border-top: 2px solid black;
-    margin: 0.5em 0;
+    margin: 1.5em 0;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+p{
+    font: 14px/1.5 Arial, Helvetica sans-serif;
+    padding-top: 0.5em;
 }
 
 ul{
     list-style: none;
 }
 
-.site-header{
+.site-title{
     display: block;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     text-transform: uppercase;
@@ -38,6 +44,7 @@ ul{
 
 .content{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .site-main{
@@ -45,6 +52,6 @@ ul{
 }
 
 .site-aside{
-    flex: 0 0 10em;
+    flex: 0 1 10em;
     padding-left: 2em;
 }
