@@ -15,3 +15,18 @@ html {
     padding: 4em;
     background-color: rgb(238, 238, 238);
 }
+
+.site-header{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+hr{
+    border-top: 2px solid black;
+    margin: 0.5em 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
