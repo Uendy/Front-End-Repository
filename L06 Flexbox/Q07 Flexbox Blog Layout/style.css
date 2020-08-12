@@ -16,12 +16,6 @@ html {
     background-color: rgb(238, 238, 238);
 }
 
-.site-header{
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-
 hr{
     border-top: 2px solid black;
     margin: 0.5em 0;
@@ -29,4 +23,28 @@ hr{
 
 h1, h2, h3, h4, h5, h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.site-header{
+    display: block;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.content{
+    display: flex;
+}
+
+.site-main{
+    flex: 0 0 55em;
+}
+
+.site-aside{
+    flex: 0 0 10em;
+    padding-left: 2em;
 }
