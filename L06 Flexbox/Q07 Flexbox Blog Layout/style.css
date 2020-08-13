@@ -55,3 +55,19 @@ ul{
     flex: 0 1 10em;
     padding-left: 2em;
 }
+
+img:first-of-type {
+    float: right;
+    padding: 5px;
+    border: 3px solid black;
+    margin-left: 1.5em;
+    max-width: 100%;
+}
+
+img:last-child {
+    float: left;
+    padding: 5px;
+    border: 3px solid black;
+    margin-right: 1.5em;
+    max-width: 100%;
+}
