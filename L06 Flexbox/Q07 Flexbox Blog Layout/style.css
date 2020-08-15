@@ -26,6 +26,24 @@ h1, h2, h3, h4, h5, h6{
     font-weight: lighter;
 }
 
+blockquote{
+    width: 49%;
+    float: right;
+    border-left: 3px solid gainsboro;
+    padding-left: 10px;
+    margin-left: 10px;
+    
+}
+
+blockquote p{
+    font-style: italic;
+}
+
+blockquote footer{
+    float: right;
+    padding: 2em 1.5em;
+}
+
 main p{
     font: 14px/1.5 Arial, Helvetica sans-serif;
     padding-top: 0.5em;
