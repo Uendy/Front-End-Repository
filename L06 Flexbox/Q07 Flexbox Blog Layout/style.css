@@ -14,6 +14,7 @@ html {
 .page{
     padding: 4em;
     background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
 }
 
 hr{
@@ -58,10 +59,13 @@ ul{
 }
 
 .site-title{
-    display: block;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 1;
+    margin: 0.5em 0 0 0;
     text-transform: uppercase;
-    font-weight: bolder;
+    display: block;
+    text-transform: uppercase;
 }
 
 .content{
