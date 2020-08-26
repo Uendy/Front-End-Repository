@@ -15,6 +15,7 @@ html {
     padding: 2em;
     background-color: rgb(238, 238, 238);
     height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title{
@@ -27,9 +28,10 @@ hr{
 }
 
 h2{
-
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p{
-
+    padding-top: 0.55em;
 }
