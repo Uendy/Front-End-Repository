@@ -12,31 +12,8 @@ html {
 }
 
 .site{
-    padding: 2em;
     background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.title{
-
-}
-
-hr{
-    border-top: 1px solid black;
-    margin: 0.8em 0;
-}
-
-h2{
-    font-weight: lighter;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-p{
-    padding-top: 0.55em;
-}
-
-footer{
-    padding: 0;
-    background-color: darkgray;
 }
