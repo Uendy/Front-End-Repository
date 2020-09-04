@@ -17,3 +17,11 @@ html {
     flex-direction: column;
     height: 100vh;
 }
+
+header{
+    padding: 1rem;
+    border-bottom: 3px solid gray;
+    font: 32px sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
