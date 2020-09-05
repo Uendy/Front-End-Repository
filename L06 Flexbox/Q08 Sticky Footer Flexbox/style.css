@@ -24,4 +24,16 @@ header{
     font: 32px sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 0.8em;
+}
+
+h2{
+    padding: 1rem;
+    font-weight: bold;
+    font: 24px serif;
+}
+
+p{
+    padding: 0.6em 0.6em 0.6em 1rem;
+    font: 15px/1.2 sans-serif;
 }
