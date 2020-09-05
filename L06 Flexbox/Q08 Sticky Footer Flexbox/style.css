@@ -37,3 +37,9 @@ p{
     padding: 0.6em 0.6em 0.6em 1rem;
     font: 15px/1.2 sans-serif;
 }
+
+footer{
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding: 0.62em 1rem; 
+}
