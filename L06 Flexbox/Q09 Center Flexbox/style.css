@@ -22,10 +22,18 @@ html {
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 15em;
-    margin: 0 20em 0 20em;
+    justify-content: center;
+    width: 25em;
+    height: 10em;
+    margin: 16.35em 0;
+    border-radius: 0.6em;
+}
+
+body{
+    margin: 0.5em;
 }
 
 p{
     font: 14px/1.2 Verdana, sans-serif;
+    padding: 1.5em 0;
 }
