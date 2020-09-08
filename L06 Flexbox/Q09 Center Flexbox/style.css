@@ -23,14 +23,15 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25em;
-    height: 10em;
-    margin: 16.35em 0;
+    width: 24em;
+    height: 8em;
+    margin: 15em 0;
     border-radius: 0.6em;
+    padding: 0.75em;
 }
 
-body{
-    margin: 0.5em;
+h1{
+    font-size: 24px;
 }
 
 p{
