@@ -30,7 +30,7 @@ html {
 
 img{
     width: 17.5%;
-    box-shadow: 0px 0px 15px 0px rgb(19, 19, 19);
+    box-shadow: 0px 0px 10px 0px rgb(19, 19, 19);
 }
 
 img:first-of-type + img{
