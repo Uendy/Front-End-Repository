@@ -16,3 +16,8 @@ html {
     display: flex;
     flex-direction: column;
 }
+
+section{
+    display: flex;
+    border: 1px solid gray;
+}
