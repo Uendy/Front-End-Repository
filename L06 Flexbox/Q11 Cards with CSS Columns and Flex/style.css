@@ -19,5 +19,15 @@ html {
 
 section{
     display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid gray; */
+}
+
+h2{
+    width: 100%;
+}
+
+article{
     border: 1px solid gray;
+    width: 32%;
 }
