@@ -11,8 +11,13 @@ html {
     box-sizing: inherit;
 }
 
+body {
+	padding: 4em;
+	background: rgb(238, 238, 238);
+}
+
 .site{
-    background-color: rgb(238, 238, 238);
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -24,7 +29,8 @@ section{
 }
 
 h2{
-    width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 1.5em;
 }
 
 article{
