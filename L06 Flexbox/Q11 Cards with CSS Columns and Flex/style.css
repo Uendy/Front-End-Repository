@@ -4,6 +4,7 @@
 }
 
 html {
+    font: 14px/1.5 "Verdana", sans-serif;
     box-sizing: border-box;
 }
 
@@ -35,6 +36,14 @@ h2{
 
 article{
     border: 1px solid gray;
-    width: 26%;
-    justify-content: space-evenly;
+    width: 33%;
+    /* justify-content: space-evenly; */
+    border-radius: 0.65em;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: inherit;
 }
