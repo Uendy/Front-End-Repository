@@ -35,5 +35,6 @@ h2{
 
 article{
     border: 1px solid gray;
-    width: 32%;
+    width: 26%;
+    justify-content: space-evenly;
 }
