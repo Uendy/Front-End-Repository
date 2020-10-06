@@ -10,3 +10,34 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.site{
+    padding: 1em;
+    background-color: rgb(238, 238 238);
+}
+
+header{
+    font: 16px/1.5 sans-serif;
+    text-transform: uppercase;
+    padding: 0.3em;
+    border-bottom: 2px solid darkgray;
+}
+
+img{
+    padding: 0.1em;
+    border: solid black 3px;
+}
+
+.first-img{
+    float: right;
+    height: 9em;
+    width: auto;
+    margin: 0 0 0.5em 0.5em;
+}
+
+.second-image{
+    float: left;
+    width: 5em;
+    height: auto;
+    margin-right: 0.4em;
+}
