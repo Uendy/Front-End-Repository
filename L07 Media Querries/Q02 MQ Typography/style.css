@@ -80,3 +80,44 @@ blockquote footer{
     outline: 3px solid black;
     padding: 7px;
 }
+
+@media (max-width: 499) {
+	html {
+		font-size: 12px;
+		padding: 1em;
+	}
+}
+
+@media (min-width: 500px) {
+	html {
+		font-size: 14px;
+		padding: 1em;
+	}
+}
+
+@media (min-width: 600px) {
+	html {
+		font-size: 16px;
+		padding: 1em;
+	}
+}
+
+@media (min-width: 800px) {
+	html {
+		font-size: 18px;
+		padding: 1em;
+	}
+}
+
+@media (min-width: 1300px) {
+	html {
+		font-size: 21px;
+		padding: 1em;
+	}
+}
+
+@media (min-width: 1800px) {
+	html {
+		font-size: 23px;
+	}
+}
