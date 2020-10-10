@@ -10,3 +10,25 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    border-bottom: 2px solid darkgray;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font: 18px/1 Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding-left: 0.2em;
+}
